@@ -1,0 +1,22 @@
+{
+  "name": "pagespeedfr/pagebuilderslider",
+  "description": "Magento 2 replace the slider of pagebuilder - change background image to img tag",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "matritix",
+      "email": "thibault.lhotellier@gmail.com",
+      "role": "Leader"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pagespeedfr\\PageBuilderSlider\\": ""
+    }
+  }
+}
