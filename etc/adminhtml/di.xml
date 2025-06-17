@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="AppearanceSourceSlide" type="Magento\PageBuilder\Model\Source\VisualSelect">
+        <arguments>
+            <argument name="optionsData" xsi:type="array">
+                <item name="5" xsi:type="array">
+                    <item name="value" xsi:type="string">pagespeed-poster</item>
+                    <item name="title" xsi:type="string" translate="true">Lcp pagespeed poster</item>
+                    <item name="icon" xsi:type="string">Magento_PageBuilder::css/images/content-type/slide/appearance/poster.svg</item>
+                </item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>
